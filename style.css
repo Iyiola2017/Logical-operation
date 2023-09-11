@@ -1,0 +1,887 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: lato, Tahoma, sans-serif;
+}
+.container { background-color: #070e19;
+    /* position: fixed; */
+}
+nav {
+    width: 100%;
+    /* margin: auto; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    padding-left: 70px;
+    background-color: rgb(56, 55, 55);
+    
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+}
+
+.sbw {
+    justify-content: space-between;
+}
+.nav_links a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+   
+}
+.nav_links {
+    padding: 20px;
+}
+.nav1_links{
+    margin-right: 100px;
+    gap: 30px;
+}
+.lg_btn {
+    background-color: #ffc427;
+    color: white;
+    border: none;
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 12px 30px;
+}
+.hamburger::after{
+    content: "\2630";
+    color: white;
+    font-size: 30px;
+    margin-right: 60px;
+
+}
+.sect1 {
+    background-image: url(./images/lo-homepage-background-010721.png);
+    width: 100%;
+    height: 600px;
+    /* margin: auto */
+    /* column-count: 2; */
+}
+.jar{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.enugbe {
+    width: 600px;
+    align-content: center;
+    margin-top: 150px;
+    flex-grow: 1;
+}
+.enugbe h2{
+    Font-size: 40px;
+    Font-weight: 900;
+    Line-height: 52px;
+    color: rgb(255, 255, 255);
+}
+.enugbe p {
+    Font-size: 22px;
+    Font-weight: 400;
+    Line-height: 27px;
+    color: rgb(255, 255, 255);
+}
+.sign {
+    background-color: #ee3831;
+    color: white;
+    border: none;
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 15px 30px;
+    /* margin-top: 20px; */
+}
+.sign p{
+    Font-size: 14px;
+    Font-weight: 400;
+    Line-height: 18px;
+    text-align: left;
+}
+.body {
+    background-color: #009ddc;
+    color: white;
+    border: none;
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 15px 40px;
+}
+.body p{
+    Font-size: 14px;
+    Font-weight: 400;
+    Line-height: 18px;
+    text-align: left;
+}
+.ever {
+    background-color: #009ddc;
+    color: white;
+    border: none;
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 33px 25px;
+    padding-top: 17px;
+    align-items: center;
+}
+.enugbe button {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.lowkey {
+    width: 500px;
+    margin-top: 80px;
+    flex-grow: 1;
+}
+.lowkey img{
+    width: 90%;
+}
+
+.zu {
+    /* width: 90%; */
+    margin: auto;
+    display: flex;
+    background-color: #242424;
+    justify-content: space-between;
+}
+.rise{
+    width: 50%;
+    display: flex;
+    height: 200px;
+    padding-top: 50px;
+    /* justify-content: space-between; */
+    
+}
+.cam{
+    width: 50%;
+    text-align: center;
+    padding-top: 25px;
+}
+.cam img {
+    width: 80%;
+    
+}
+
+.rate h5{
+    Font-size: 30px;
+    Font-weight: 300;
+    Line-height: 36px;
+    color: rgb(255, 255, 255);
+}
+.rate p{
+    Font-size: 16px;
+    Font-weight: 300;
+    Line-height: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.rice {
+    width: 50%;
+    height: 200px;
+    display: flex;
+    padding-top: 50px;
+    border-left: 1px solid gray;
+}
+.rice p{
+    Font-size: 30px;
+    Font-weight: 300;
+    Line-height: 36px;
+    color: rgb(255, 255, 255);
+}
+.rice h6{
+    Font-size: 16px;
+    Font-weight: 300;
+    Line-height: 20px;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+}
+.ck {
+    width: 50%;
+    text-align: center;
+}
+.ck img {
+    width: 50%;
+}
+.sect3 {
+    display: grid;
+    grid-template-columns: 500px auto auto auto;
+    cursor: pointer;
+    
+    
+}
+.sect3 div {
+    border-right: 1px solid black;
+    text-align: center;
+    border-bottom: 1px solid black;
+    color: white;
+    height: 250px;
+}
+.tule {
+    background-color: #009ddc;
+}
+.fg {
+    Font-size: 26px;
+    Font-weight: 700;
+    Line-height: 36px;
+    color: rgb(255, 255, 255);
+    padding-top: 30px;
+}
+.lg{
+    Font-size: 26px;
+    Font-weight: 700;
+    Line-height: 36px;
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+}
+.sg {
+    Font-size: 16px;
+    Font-weight: 300;
+    Line-height: 16px;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+.coming {
+    background-color: rgb(5, 107, 148);
+    overflow: hidden;
+}
+.flash {
+    background-color: rgb(5, 107, 148);
+    
+    overflow: hidden;
+}
+.pad {
+    background-color: rgb(5, 107, 148);
+    overflow: hidden;
+}
+.leaf {
+    background-color: #009ddc;
+    width: 100%;
+    height: 100%;
+    transition-duration: 1s;
+}
+.leaf:hover{
+    transform: translate(50px, 0px);
+}
+.leaf p {
+    Font-size: 26px;
+    Font-weight: 900;
+    Line-height: 30px;
+    color: rgb(255, 255, 255);
+    padding-top: 100px;
+}
+.areas {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(auto, 1fr));
+    height: 800px;
+    background-color: #7fc027;
+    cursor: pointer;
+}
+.box_a{
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 100px;
+}
+.box {
+    border: 1px solid black;
+    text-align: center;
+}
+.deep {
+    /* background-color: #009ddc; */
+    width: 100%;
+    height: 100%;
+    transition-duration: 1s;
+}
+.c {grid-row: 1/3;}
+.c {grid-column: 2/3;}
+.box_a p{
+    Font-size: 24px;
+    Font-weight: 300;
+    Line-height: 28.8px;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+.b{width: 450px;
+    padding-top: 150px;
+}
+.b p{
+    Font-size: 24px;
+    Font-weight: 300;
+    Line-height: 28.8px;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+.c {
+    width: auto;
+    padding-top: 50%;
+}
+.c h5{
+    Font-size: 67px;
+    Font-weight: 300;
+    Line-height: 67px;
+    color: rgb(255, 255, 255);
+}
+.c h2{
+    Font-size: 72px;
+    Font-weight: 900;
+    Line-height: 72px;
+    color: rgb(255, 255, 255);
+}
+.c p {
+    Font-size: 20px;
+    Font-weight: 400;
+    Line-height: 20px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 30px;
+}
+.d {
+    width: 450px;
+    padding-top: 70px;
+}
+.d p{
+    Font-size: 24px;
+    Font-weight: 300;
+    Line-height: 28.8px;
+    color: rgb(255, 255, 255);
+}
+.sh {
+    margin-top: 20px;
+}
+.e {
+    width: 450px;
+    padding-top: 100px;
+}
+.e p{
+    Font-size: 24px;
+    Font-weight: 300;
+    Line-height: 28.8px;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+.baba {
+    display: flex;
+    /* grid-template-columns: repeat(5, minmax(auto, 1fr)); */
+    height: 600px;
+    background-color: #972169;
+    cursor: pointer;
+}
+.box {
+    border: 1px solid black;
+    text-align: center;
+}
+.h img{
+    width: 25%;
+}
+.col1 {
+    width: 700px;
+   
+}
+.f {
+    height: 400px;
+    padding-top: 70px;
+    margin: auto;
+   
+}
+.f h6 {
+    Font-size: 22px;
+    Font-weight: 300;
+    Line-height: 19.8px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+.f h2 {
+    Font-size: 72px;
+    Font-weight: 900;
+    Line-height: 64.8px;
+    color: rgb(255, 255, 255);
+}
+.f p{
+    Font-size: 30px;
+    Font-weight: 300;
+    Line-height: 27px;
+    color: rgb(0, 0, 0, 0.6);
+    margin-top: 20px;
+}
+.dine p {
+     Font-size: 30px;
+    Font-weight: 500;
+    Line-height: 19.8px;
+    color: rgb(255, 255, 255);
+}
+.vine {
+    height: 200px;
+    width: 700px;
+    overflow: hidden;
+    border: 1px solid black;
+    text-align: left;
+    margin: auto;
+}
+.dine p{
+    padding-top: 70px;
+    Font-size: 22px;
+    Font-weight: 300;
+    Line-height: 19.8px;
+    color: rgb(255, 255, 255);
+}
+.wine h6{
+    Font-size: 30px;
+    Font-weight: 500;
+    Line-height: 19.8px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 40px;
+    text-align: left;
+    padding-top: 30px;
+    
+}
+.wine p {
+    Font-size: 22px;
+    Font-weight: 300;
+    Line-height: 22px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+   
+}
+.dine,
+.wine{
+    background-color: #972169;
+    height: 200px;
+    align-items: left;
+    transition: transform 0.5s;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.dine {
+    box-shadow: 0 0 20px rgb(0 0 0 /50%);
+    transform-origin: 50% 0;
+}
+.vine:hover .dine{
+    transform: translateZ(-100px) perspective(50px) rotateX(-5deg);
+}
+.vine:hover .wine{
+    box-shadow: 0 0 20px rgb(0 0 0 /50%);
+    transform: translateY(-200px);
+}
+.col2 {
+    width: 700px;
+   
+}
+.h {height: 200px;
+    display: flex;
+    align-items: center;
+    
+}
+/* .fad {
+    padding-right: 100px;
+} */
+.fad h6 {
+    Font-size: 26px;
+    Font-weight: 700;
+    Line-height: 36px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+.fad p{
+    Font-size: 16px;
+    Font-weight: 300;
+    Line-height: 16px;
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+    text-align: left;
+}
+.juice {height: 200px; 
+    padding-top: 80px;
+    overflow: hidden;
+}
+.mind,
+.lime {
+    background-color: #972169;
+    height: 200px;
+    align-items: left;
+    transition: transform 0.5s;
+    text-align: center;
+    padding-left: 20px;
+}
+.mind {
+    box-shadow: 0 0 0px rgb(0 0 0 /50%);
+    transform-origin: 50% 0;
+}
+.juice:hover .mind {
+    transform: translateZ(-100px) perspective(50px) rotateX(-5deg);
+}
+.juice:hover .lime {
+    box-shadow: 0 0 20px rgb(0 0 0 /50%);
+    transform: translateY(-200px);
+}
+.lime h6 {
+    Font-size: 30px;
+    Font-weight: 500;
+    Line-height: 19.8px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    text-align: left;
+    padding-top: 30px;
+}
+.lime p{
+    Font-size: 22px;
+    Font-weight: 300;
+    Line-height: 22px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+.mind p{
+    Font-size: 28px;
+    Font-weight: 300;
+    Line-height: 19.8px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    margin-left: 70px;
+}
+.kind {height: 200px; 
+    padding-top: 80px;
+    padding-top: 80px;
+    overflow: hidden;
+    border-top: 1px solid black;
+}
+.kind p{
+    Font-size: 28px;
+    Font-weight: 300;
+    Line-height: 19.8px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    margin-left: 70px;
+    
+}
+.zip,
+.dola {
+    background-color: #972169;
+    height: 200px;
+    align-items: left;
+    transition: transform 0.5s;
+    text-align: center;
+    padding-left: 20px;
+}
+.zip {
+    box-shadow: 0 0 0px rgb(0 0 0 /50%);
+    transform-origin: 50% 0;
+}
+.kind:hover .zip{
+    transform: translateZ(-100px) perspective(50px) rotateX(-5deg);
+}
+.kind:hover .dola{
+    box-shadow: 0 0 20px rgb(0 0 0 /50%);
+    transform: translateY(-200px);
+}
+.dola h6 {
+    Font-size: 30px;
+    Font-weight: 500;
+    Line-height: 19.8px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    text-align: left;
+    padding-top: 30px;
+}
+.dola p{
+    Font-size: 22px;
+    Font-weight: 300;
+    Line-height: 22px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+.zoe {
+    background-color: #009ddc;
+    display: flex;
+    height: 700px;
+}
+.date {
+    width: 700px;
+}
+.yea {
+    width:700px;
+    height: 700px;
+}
+.give {
+    display: flex;
+}
+.make {
+    display: flex;
+}
+.blessed{
+    background-color: rgb(5, 107, 148);
+    overflow: hidden;
+    width: 350px;
+    height: 350px;
+}
+.k {
+    width: 350px;
+    height: 350px;
+    padding-top: 140px; 
+    width: 100%;
+    height: 100%;
+    transition-duration: 1s;
+    background-color: #009ddc;
+}
+.k:hover {
+    transform: translate(-40px, -40px);
+}
+.faith{
+    background-color: rgb(5, 107, 148);
+    overflow: hidden;
+    width: 350px;
+    height: 350px;
+    border-left: 1px solid black;
+}
+.l {
+    width: 350px;
+    height: 350px;
+    padding-top: 140px;
+    width: 100%;
+    height: 100%;
+    transition-duration: 1s;
+    background-color: #009ddc;
+   
+}
+.l:hover {
+    transform: translate(40px, -40px);
+}
+.peace {
+    background-color: rgb(5, 107, 148);
+    overflow: hidden;
+    width: 350px;
+    height: 350px;
+    border-top: 1px solid black;
+}
+.m {
+    width: 350px;
+    height: 350px;
+    padding-top: 130px;
+    width: 100%;
+    height: 100%;
+    transition-duration: 1s;
+    background-color: #009ddc;
+}
+.m:hover{
+    transform: translate(-40px, 40px);
+}
+.joy {
+    background-color: rgb(5, 107, 148);
+    overflow: hidden;
+    width: 350px;
+    height: 350px;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+
+}
+.n {
+    width: 350px;
+    height: 350px;
+    padding-top: 130px;
+    width: 100%;
+    height: 100%;
+    transition-duration: 1s;
+    background-color: #009ddc;
+   
+}
+.n:hover{
+    transform: translate(40px, 40px);
+}
+.o {
+    height: 700px;
+    text-align: center;
+    padding-top: 270px;
+}
+.o h6 {
+    Font-size: 28px;
+    Font-weight: 300;
+    Line-height: 19.8px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    margin-left: 80px;
+}
+.o h1 {
+    Font-size: 72px;
+    Font-weight: 900;
+    Line-height: 64.8px;
+    color: rgb(255, 255, 255);
+}
+.o p{
+    Font-size: 20px;
+    Font-weight: 400;
+    Line-height: 20px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 80px;
+}
+.freedom {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(auto, 1fr));
+    height: 200px;
+}
+.letstalk{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-right: 1px solid black;
+    background-color: #ffc427;
+    border-collapse: collapse;
+    border-right: none;
+}
+.letstalk h1 {
+    Font-size: 60px;
+    Font-weight: 900;
+    Line-height: 64.8px;
+    color: rgb(255, 255, 255);
+}
+.Whether{
+display: flex;
+justify-content: center;
+align-items: center;
+border-right: 1px solid black;
+background-color: #ffc427;
+border-collapse: collapse;
+flex-direction: column;
+}
+.Whether p{
+    Font-size: 20px;
+    Font-weight: 400;
+    Line-height: 20px;
+    color: rgba(255, 255, 255);
+    text-align:left ;
+}
+.camp {
+    /* align-self: center; */
+    background-color: #cf9905;
+    overflow: hidden; 
+    height: 100%;
+    width: 100%; 
+}
+.guard {
+    background-color: #ffc427;
+    width: 100%;
+    height: 100%;
+    transition-duration: 1s;
+}
+.guard:hover{
+    transform: translate(50px, 0px);}
+.camp p{
+    Font-size: 70px;
+    Font-weight: 400;
+    Line-height: 70px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+}
+footer {
+    background-color: #070e19;
+    height: 100px;
+    margin: auto;
+    justify-content: space-evenly;
+}
+.next {
+    display: flex;
+}
+.dio {
+    display: flex;
+    
+}
+.sugar p {
+    color: white;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-right: 1px solid white;
+}
+.mobile_view {
+    text-align: center;
+    
+   }
+   .cp {
+       background-color: black;
+       border-bottom: 1px solid black;
+       height: 70px;
+       padding-top: 10px;
+   }
+   .cp img{
+       width: 20%;
+   }
+   .jp {
+       background-color: #009ddc;
+       color: white;
+       font-weight: 300;
+       font-size: 16px;
+       font-family: lato, Tahoma, sans-serif;
+       border-bottom: 1px solid black;
+       height: 70px;
+       padding-top: 25px;
+   }
+   .vb {
+       background-color: #ee3831;
+       color: white;
+       font-weight: 300;
+       font-size: 16px;
+       font-family: lato, Tahoma, sans-serif;
+       border-bottom: 1px solid black;
+       height: 70px;
+       padding-top: 25px;
+   }
+   .hy {
+       background-color: #7fc027;
+       color: white;
+       font-weight: 300;
+       font-size: 16px;
+       font-family: lato, Tahoma, sans-serif;
+       border-bottom: 1px solid black;
+       height: 70px;
+       padding-top: 25px;
+   }
+   .km {
+       background-color: #ffc427;
+       color: white;
+       font-weight: 300;
+       font-size: 16px;
+       font-family: lato, Tahoma, sans-serif;
+       border-bottom: 1px solid black;
+       height: 70px;
+       padding-top: 25px;
+   }
+   .last {
+       text-align: center;
+       background-color: black;
+       
+   }
+   .ima {
+       display: flex;
+       justify-content: center;
+       gap: 20px;
+       padding-top: 20px;
+       margin-bottom: 20px;
+   }
+   .ima img{
+       width: 5%;
+       background-color: transparent;
+   }
+   .tems {
+       padding-bottom: 20px;
+   }
+   .tems p{
+       color: white;
+       font-size: 12px;
+       margin-bottom: 10px;
+   
+   }
+   @media (max-width: 1440px){
+          .mobile_view{
+           display: none;
+          }
+   }
+@media (max-width: 426px){
+    .desktop_view{
+        display: none;
+    }
+    .mobile_view{
+        display: block;
+    }
+} 
